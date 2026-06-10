@@ -1,10 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-host = 'localhost' #127.0.0.1
-user = 'root'
-password = ''
-database = 'bd_pedidos'
 
 #URL de conexão
 engine = create_engine(f'mysql+pymysql://{user}:{password}@{host}/{database}')
